@@ -1,0 +1,5 @@
+CREATE TABLE t_inventory (
+    id BIGINT(20) AUTO_INCREMENT PRIMARY KEY,
+    skuCode VARCHAR(255) DEFAULT NULL,
+    quantity INT DEFAULT NULL
+);
